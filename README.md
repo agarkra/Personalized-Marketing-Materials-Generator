@@ -7,20 +7,35 @@ Python installed on your system (preferably Python 3.8 or later).
 The required CSV files (users_data.csv and transactions_data.csv).
 
 # Installation Guide
+
 Step 1: Install Python
+
 -Ensure Python is installed on your system. You can download it from the official Python website.
+
 Step 2: Clone the Repository
+
 -Clone this repository to your local machine:
+
 git clone https://github.com/agarkra/Personalized-Marketing-Materials-Generator.git
+
 cd Personalized-Marketing-Materials-Generator
+
 Step 3: Install Dependencies
+
 -Navigate to the repository folder in the command prompt or terminal and install the required libraries by running:
+
 pip install pandas click transformers diffusers scikit-learn torch tensorflow
+
 Prepare CSV Files
+
 -Ensure that users_data.csv and transactions_data.csv are placed in the same directory as the script. Alternatively, you can update the file paths in the script to match your setup.
+
 Running the Application
+
 -Execute the script from the command line by passing a client_id as an argument. For example:
+
 python app.py 1961
+
 
 Note: Here 1961 is the client id, if your client id is 1996 use command python app.py 1996
 
