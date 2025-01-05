@@ -11,8 +11,8 @@ Step 1: Install Python
 -Ensure Python is installed on your system. You can download it from the official Python website.
 Step 2: Clone the Repository
 -Clone this repository to your local machine:
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/agarkra/Personalized-Marketing-Materials-Generator.git
+cd Personalized-Marketing-Materials-Generator
 Step 3: Install Dependencies
 -Navigate to the repository folder in the command prompt or terminal and install the required libraries by running:
 pip install pandas click transformers diffusers scikit-learn torch tensorflow
