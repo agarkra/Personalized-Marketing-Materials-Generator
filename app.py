@@ -78,7 +78,7 @@ X = final_data[features].fillna(0)  # Handle missing values by filling with 0
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Determine optimal number of clusters (optional)
+# Determine optimal number of clusters
 silhouette_scores = {}
 for k in range(2, 10):
     kmeans = KMeans(n_clusters=k, random_state=42)
